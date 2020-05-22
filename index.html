@@ -1,4 +1,6 @@
-FROM nginx
-RUN mkdir /usr/share/nginx/html/secondapp
-COPY index.html /usr/share/nginx/html/secondapp
-CMD ["nginx", "-g", "daemon off;"]
+<!DOCTYPE html>
+<html>
+<body>
+<h1>my first app</h1>
+</body>
+</html>
